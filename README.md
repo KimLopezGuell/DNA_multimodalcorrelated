@@ -20,31 +20,31 @@ The program X3DNA [2] is needed for the analysis and rebuilding of the 3D struct
 
 -----------------
 
-If any script is changes, running makefile will compile the program again.
+If any script is changed, running makefile will compile the program again.
 
 To run the program, just type:
 
-'export PATH="[PATH]/SCHNArP/bin":'[PATH]/X3DNA/bin/':$PATH'
-'export SCHNA_AR_P="[PATH]/SCHNArP"'
-'export X3DNA="[PATH]/X3DNA/bin"'
+`export PATH="[PATH]/SCHNArP/bin":'[PATH]/X3DNA/bin/':$PATH`
+`export SCHNA_AR_P="[PATH]/SCHNArP"`
+`export X3DNA="[PATH]/X3DNA/bin"`
 
 where [PATH] refers to whichever folder you have the programs saved in your computer.
 
-'cd [PATH where you have the scripts]'
+`cd [PATH where you have the scripts]`
 
-'mkdir Result_folder'
-'mkdir Result_folder/analysis'
-'mkdir Result_folder/output'
-'mkdir Result_folder/output_acc'
-'mkdir Result_folder/output_cart'
-'mkdir Result_folder/output_dnaflex'
-'mkdir Result_folder/output_schnarp'
-'mkdir Result_folder/output_tables_helpar'
+`mkdir Result_folder`
+`mkdir Result_folder/analysis`
+`mkdir Result_folder/output`
+`mkdir Result_folder/output_acc`
+`mkdir Result_folder/output_cart`
+`mkdir Result_folder/output_dnaflex`
+`mkdir Result_folder/output_schnarp`
+`mkdir Result_folder/output_tables_helpar`
 
 where "Result_folder" can have any name you desire.
 
 Finally, the actual program is run by:
-'./MC_Chromatin sequence.dat 5000 [PATH]/Result_folder 6'
+`./MC_Chromatin sequence.dat 5000 [PATH]/Result_folder 6`
 
 where sequence.dat has the sequence of interest (for example, "AATTAGCTA"), 5000 refers to the number of runs desired for the ensemble of outputs, and the last integer is chosen to select the type of model desired (6 stands for multimodal correlated, other types can be chosen*).
 
