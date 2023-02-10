@@ -58,4 +58,12 @@ where sequence.dat has the sequence of interest (for example, "AATTAGCTA"), 5000
 [2] https://doi.org/10.1038/nprot.2008.104
 
 
+------------------
+## Zenodo DOI
+
+
+[![DOI](https://zenodo.org/badge/590646462.svg)](https://zenodo.org/badge/latestdoi/590646462)
+
+
+
 
